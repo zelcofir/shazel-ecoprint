@@ -13,8 +13,8 @@ export function CartDrawer() {
     const lines = cart.map(
       (item) => `- ${item.name} (${item.size}, ${item.material}) x${item.quantity}`
     )
-    const message = `Hola Shazel Ecoprint! Quiero personalizar mi cuadro/tote. Mi carrito incluye:\n\n${lines.join("\n")}\n\nGracias!`
-    return `https://walink.co/06b0a0?text=${encodeURIComponent(message)}`
+    const message = `Hola Shazel Ecoprint! 🎨 Quiero personalizar mi cuadro/tote. Mi carrito incluye:\n\n${lines.join("\n")}\n\nGracias!`
+    return `https://wa.me/51961735984?text=${encodeURIComponent(message)}`
   }
 
   return (

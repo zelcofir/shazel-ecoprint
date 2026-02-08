@@ -9,14 +9,14 @@ export function WhatsAppButton() {
   function buildWhatsAppMessage() {
     if (cart.length === 0) {
       const message = "Hola Shazel Ecoprint! Tengo una consulta sobre vuestros productos."
-      return `https://walink.co/06b0a0?text=${encodeURIComponent(message)}`
+      return `https://wa.me/51961735984?text=${encodeURIComponent(message)}`
     }
 
     const lines = cart.map(
       (item) => `- ${item.name} (${item.size}, ${item.material}) x${item.quantity}`
     )
     const message = `Hola Shazel Ecoprint! 🎨 Quiero personalizar mis productos. Mi carrito incluye:\n\n${lines.join("\n")}\n\n¿Cuál es el proximo paso?`
-    return `https://walink.co/06b0a0?text=${encodeURIComponent(message)}`
+    return `https://wa.me/51961735984?text=${encodeURIComponent(message)}`
   }
 
   return (

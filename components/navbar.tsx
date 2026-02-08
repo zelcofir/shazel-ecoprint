@@ -50,7 +50,7 @@ export function Navbar() {
             className="rounded-2xl bg-primary text-primary-foreground hover:bg-primary/90"
           >
             <a
-              href="https://walink.co/06b0a0"
+              href="https://wa.me/51961735984"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -90,7 +90,7 @@ export function Navbar() {
             className="mt-4 w-full rounded-2xl bg-primary text-primary-foreground"
           >
             <a
-              href="https://walink.co/06b0a0"
+              href="https://wa.me/51961735984"
               target="_blank"
               rel="noopener noreferrer"
             >
